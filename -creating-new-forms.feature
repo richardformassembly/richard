@@ -1,6 +1,6 @@
 Feature: Creating new forms
 
-  @BEH-2
+  @BEH-2 @Email
   Scenario: Create and save a new form from scratch
     Given I'm building a form in Form Builder 5.0.0
     When I save the FB5 form
